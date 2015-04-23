@@ -1,0 +1,87 @@
+.calendar_icon
+{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.event-head
+{
+	background-color: #333;
+	color: #fff;
+}
+.event-head a, .event-head a:hover
+{
+	color: #fff;
+	text-decoration: none;
+}
+.event-title
+{
+	padding: 10px 10px 10px 10px;
+}
+.event-details
+{
+	width: 200px;
+	padding: 20px 20px 20px 20px;
+}
+.event-text
+{
+	padding: 20px 20px 20px 20px;
+}
+.event-image
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.event-image img
+{
+	padding: 5px 5px 5px 5px;
+	border: 1px solid #ccc;
+}
+.event-subheader
+{
+	display: block;
+	font-size: 20px;
+	float: right;
+	padding: 10px 10px 10px 10px;
+}
+.event-subheader a:hover
+{
+	text-decoration:none;
+}
+.event-bubble-tip
+{
+	font-size: 14px;
+}
+.event-bubble-tip a, .event-bubble-tip a:hover
+{
+	text-decoration: none;
+}
+.calendar-icon-small, .birthday-icon-small
+{
+	vertical-align: middle;
+}
+.c-daynames
+{
+	font-size: 20px;
+	width: 100px;
+	text-align: center;
+}
+.c-dates
+{
+	font-size: 20px;
+	width: 100px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.c-date, .c-date a, .c-dates a:hover
+{
+	text-decoration: none;
+}
+.c-rightborder
+{
+	border-right: 1px solid #000;
+}
+.current-day a
+{
+	text-decoration: none;
+}

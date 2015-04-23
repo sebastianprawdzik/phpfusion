@@ -1,0 +1,140 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-ie">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>User Control v1.24 - Installation and Configuration</title>
+<style>
+body {font-family:Verdana,Tahoma,Arial,Sans-Serif;font-size: 11px;padding:0px;margin:10px;background-color:#E9E9E9;color:#FFFFFF;}
+body a{font-family:Verdana;font-size: 11px;padding:0px;margin:10px;color:#663300;text-decoration: none;}
+body a:hover{font-family:Verdana;font-size: 11px;padding:0px;margin:10px;color:#FF9900;text-decoration: none;}
+.tbl-border {background-color:#C8C8C8;}
+.tbl {font-size: 11px;padding:4px;}
+.tbl1 {font-size: 11px;color:#333333;background-color:#DFDFDF;padding:4px;}
+.tbl2 {font-size: 14pt;color:#666666;background-color:#FFF9DD;padding:4px;}
+.tbl3 {font-size: 12px;color:#663300;background-color:#CCCCCC;padding:4px;width: 100px;}
+.textbox {font-size: 10pt;border:1px solid #C0C0C0;background-color: #FFF9DD;font-family:Courier New}   
+.footer {font-size: 14pt; color: #000080; font-family:Calibri; letter-spacing:2pt;}
+</style>
+</head>
+<body>
+
+<table width='60%' align='center' class='tbl-border'>
+  <tr><td class='tbl2' align='center' colspan="2"><b>User Control v1.24</b> Infusion for PHP-Fusion v7.02.+</td>
+  </tr><tr>
+    <td class='tbl1' colspan="2"><marquee scrolldelay="10" scrollamount="3" onmouseover='this.stop()' onmouseout='this.start()'>User Control v1.24 for v7.02+ by HobbyMan | See included<a href="agpl.html">agpl.html</a>for more.</marquee></td>
+  </tr><tr>
+	<td class='tbl1'>
+    <center><img border="0" src="files/infusions/user_control/imgs/logo.png" alt="" /></center>
+    <b>What it does</b>:<br /><br />This is a powerful Administrators tool for the bulk banning or deletion of user 
+    accounts. It will display up to 100 users per page depending on access level 
+    and setting chosen giving an Admin with Ban privileges the ability to ban or 
+    delete multiple selection of user accounts. With built in Spam Rate, it give 
+    a site admin a quick glance at the member accounts and any content all in 
+    one place.
+    <ul>
+	<li>User Control - This is a list of all members with a lower post count 
+    than post threshold (see settings).</li>
+	<li>Check the status of Usernames, Email and IP addresses using <a target='_blank' href='http://www.stopforumspam.com/'>stopforumspam.com</a></li>
+    <li>Group by IP - This will display all IP addresses that have 2 or more 
+    members using that IP.</li>
+    <li>IP Lookup - Enter an individual IP address to view any members using 
+    that IP.</li>
+    <li>Members IP - Enter User ID to view all IP addresses used by that member 
+    since they joined.</li>
+    <li>User ID Lookup - Enter a Users ID to view all content posted by that 
+    member.</li>
+    <li>Inactive User - Lists all users who never logged in by default. Use 
+    dropdown to view different timescales.</li>
+    <li>Admin Rights - View all Rights attributed to Administrators
+    <font color="#FF0000">*</font></li>
+    <li>Month Stats - Displays a registration statistics by month </li>
+    <li>Settings - See configuration.</li>
+	</ul></td>
+	
+	<td class='tbl1' width='224'><img border="0" src="shield.png" width="224" alt="User Control" /></td>
+
+ </tr><tr>
+	<td class='tbl1' colspan="2"><b>Installation:</b><br />
+	<ol>
+       <li>Upload user_control folder to your infusions folder</li>
+       <li>Go to Admin Panel - System Admin - Infusions</li>
+       <li>Select user_control from the dropdown and infuse</li>
+       <li>Go to Infusions - Users Control to view.</li>
+	</ol>
+	<p><b>Core File Modification:</b></p>
+	<ol>
+		<li>None - This infusion can be uninstalled without affecting site 
+        content or member accounts.</li>
+	</ol>
+	</td>
+  </tr><tr>
+	<td class='tbl1' colspan="2"><b>Configuration:</b>
+	<ul>
+		<li>To upgrade from previous versions, overwrite <b>all</b> files and infuse as normal.</li>
+		<li>There are 4 settings</li><br />
+        <ol>
+          <li>Show Nav Icons</li>
+          <li>Views Users By: User ID, User Joined or User Last Visit</li>
+          <li>Spam Rate: Takes a snapshot of a members signature and site url 
+          looking for key spam words and word count of and outputs a number. 
+          Default is set at 20.</li>
+          <li>Post Threshold: Number of posts/entries per page</li>
+        </ol></ul>
+	<b>Misc: </b><font color="#FF0000">*</font> Admin Rights and Settings are 
+    only accessible by Superadmins. Any time User Control is used, the Admin 
+    who last used it is logged and datestamped.<br /></td>  
+  </tr><tr>
+	<td class='tbl1' width="87%"><b>Support:</b> <a target="_blank" href="http://www.hobbysites.net/">www.hobbysites.net</a> or
+	<a target="_blank" href="http://www.php-fusion.co.uk/">www.php-fusion.co.uk</a> </td>  
+	<td class='tbl3' rowspan="2" align="center" width="107"><b>Version: 1.24</b></td>
+
+ </tr><tr>
+	<td class='tbl2' align='center' width="87%">hobbysites - Addons for php-fusion</td>
+  </tr></table>
+
+<hr color="#fff" size="3">
+	<table align="center" width="60%" class="tbl-border">
+		<tr>
+			<td class="tbl2" colspan="2">Notes and Changelog</td>
+		</tr>
+		<tr>
+			<td class="tbl1">
+            <b>Notes: It is strongly recommended you perform a full database backup before using User Control!</b></td>
+			<td class="tbl3" align="center" width="88">
+			<img border="0" src="valid-xhtml10-blue.png" width="88" alt="HTML Valid" /></td>
+		</tr>
+		<tr>
+			<td class="tbl1" colspan="2"><b>Changelog:</b><br />
+			v1.24<ul>
+			<li>IP Addresses display as country with corresponding flag instead of IP numbers</li>
+			<li>Admins account info now displays but is protected</li>
+			<li>Username, Email & IP check using <a target='_blank' href='http://www.stopforumspam.com/'>stopforumspam.com</a></li>
+			<li>Various bug fixes</li>
+			</ul><br />
+			v1.23<ul>
+			<li>Added setting to turn off nav icons for narrow themes.</li>
+			<li>Various bug fixes</li>
+			</ul><br />
+			v1.22<ul>
+			<li>Auto detection of installed Shoutbox</li>
+			<li>Various bug fixes</li>
+			</ul><br />
+            v1.20 - Major Upgrade<ul>
+              <li>Added Admin Password requirement as extra precaution.</li>
+              <li>Added Members IPs Search.</li>
+              <li>Cleaned up &quot;GROUP columns&quot; errors.</li>
+              <li>Added landing page with latest members and visits stats.</li>
+              <li>Update Settings</li>
+              <li>Added Version Server.</li>
+              <li>Added prevention of accidentally blacklisting Admins IP.</li>
+              <li>Added logging of last Admin to use it.</li>
+            </ul>
+            <p>v1.14 - First public version<br />
+            v1.0 to v1.13 - Beta testing<br />
+			</td>
+		</tr>
+	</table><br />
+	<div class="footer"><center>© hobbysites.net 2013<br /><br /><a title="hobbysites.net" target="_blank" href="http://www.hobbysites.net/"><img border="0" src="hs_lwr.gif" width="80" alt="hobbysites" /></a></center></div>
+</body>
+</html>

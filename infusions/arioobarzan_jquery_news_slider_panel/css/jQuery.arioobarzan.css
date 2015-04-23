@@ -1,0 +1,121 @@
+/* Navigation */
+.flashnavi{
+	float: left;
+	z-index: 1000;
+	left: 10px;
+	position: relative; 
+	bottom: 0px;
+    /*top: 121px;*/
+}
+.flashnavi .main div{
+	cursor: pointer;
+}
+
+.flashnavi .main .prev{
+	float: left; 
+	background: url('../img/sprite.png') -5px -10px no-repeat;
+    width: 36px; 
+    height: 23px;
+}
+.flashnavi .main .timer{
+	float: left; 
+	width: 24px; 
+    height: 23px;
+}
+.flashnavi .main .play{
+	background:url("../img/sprite.png") -20px -50px no-repeat;
+	/* background: url('../img/timer.gif') no-repeat; */
+}
+.flashnavi .main .pause{
+	background:url("../img/sprite.png") -87px -50px no-repeat;
+}
+.flashnavi .main .next{
+	float: left;
+	background: url('../img/sprite.png') -90px -10px no-repeat;
+	width: 35px; 
+    height: 23px;
+}
+.flashnavi .main .count{
+	 float: left;
+	 padding-left: 5px;
+}
+.flashnavi .main .count .page{
+	float: left;
+	padding: 0pt 2px;
+	background:url('../img/sprite.png') -10px -82px no-repeat;
+	height:23px;
+	width:10px;
+}
+.flashnavi .main .count .active{
+	background:url('../img/sprite.png') -40px -82px no-repeat;
+}
+.flashnavi .main .count ul,.flashnavi .main .count li{
+	margin: 0;
+	padding: 0;
+}
+.flashnavi .main .count ul li{
+	list-style: none outside none;
+}
+
+/* JQuery Teaser */
+
+.hometeaser{
+	position: relative; /* height: 350px; */
+}
+.hometeaser div{
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	display: none;
+}
+.hometeaser .show{
+	z-index: 10;
+	display: block;
+}
+.hometeaser .last-show{
+	z-index: 9;
+}
+.hometeaser .show a{
+	text-decoration: none;
+	color: #000000;
+	z-index: 1;
+}
+.hometeaser .text
+{
+    padding:5px;
+    background-color: transparent;
+    opacity:.99;
+    -moz-opacity:.99;
+    filter:alpha(opacity=99);
+	display: none;
+	/*position: absolute;*/
+position: absolute;
+	left: 30px;
+	top: 35px;
+	/*width: 400px;*/
+	z-index: 1;
+}
+.hometeaser .show .text{
+	display: block;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	/*width: 400px;*/
+	z-index: 1; /*height: 200px;*/
+}
+.hometeaser .text a,.hometeaser .text{
+	text-decoration: none;
+	font-size: 12px;
+}
+.hometeaser .text .black a,.hometeaser .text .black{
+	color: #000000;
+}
+.hometeaser .text h2{
+	padding: 5px 0 5px 0;
+	margin:0;
+	color: #FF1E00;
+}
+.hometeaser .text h2 a{
+	font-size: 18px;
+}

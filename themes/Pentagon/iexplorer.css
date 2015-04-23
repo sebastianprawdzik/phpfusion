@@ -1,0 +1,30 @@
+/* Special fixes for IE */
+.grass-pattern {
+	position: relative;
+	top: -40px;
+}
+
+.football-line {
+	margin-bottom: 0;
+}
+
+.ie-fix {
+	display: block;
+	margin-top: -55px;
+}
+
+.panel-intro {
+	margin-bottom: 0;
+}
+
+.ie-margin {
+	margin-top: -10px;
+}
+
+.panel-mid {
+	padding: 0 5px;
+}
+
+.panel-body, .panel-info {
+	padding: 12px 5px 4px 5px;
+}

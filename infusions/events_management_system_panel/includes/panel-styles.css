@@ -1,0 +1,35 @@
+.panel-month
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+.panel-daynames
+{
+	font-size: 12px;
+	text-align: center;
+	padding: 3px 1px 3px 1px;
+}
+.panel-dates
+{
+	font-size: 12px;
+	padding: 3px 1px 3px 1px;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	border-left: 1px solid #000;
+}
+.panel-date, .panel-dates a, .panel-dates a:hover
+{
+	text-decoration: none;
+}
+.panel-rightborder
+{
+	border-right: 1px solid #000;
+}
+.panel-event-bubble-tip
+{
+	font-size: 14px;
+}
+.panel-event-bubble-tip a, .panel-event-bubble-tip a:hover
+{
+	text-decoration: none;
+}
